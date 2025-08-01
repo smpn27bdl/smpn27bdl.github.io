@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Pengguna - Inovasi Digital - SMPN 27 Bandar Lampung</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px 20px 10px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px 40px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            background-color: #ccc; /* Placeholder color */
+        }
+
+        .card-title {
+            padding: 10px;
+            font-weight: 600;
+            background: #f1f1f1;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Panduan Pengguna</h1>
+        <p>Silakan klik untuk membuka buku panduan masing-masing aplikasi</p>
+    </header>
+
+    <main class="grid">
+        <a href="panduan-pengguna/foto360.pdf" target="_blank" class="card">
+            <img src="" alt="Panduan Informasi Sekolah">
+            <div class="card-title">Panduan Informasi Sekolah</div>
+        </a>
+        <a href="panduan-pengguna/verb.pdf" target="_blank" class="card">
+            <img src="" alt="Panduan English Battle">
+            <div class="card-title">Panduan English Battle</div>
+        </a>
+        <a href="panduan-pengguna/mtk.pdf" target="_blank" class="card">
+            <img src="" alt="Panduan MTK">
+            <div class="card-title">Panduan MTK</div>
+        </a>
+        <a href="panduan-pengguna/ipa.pdf" target="_blank" class="card">
+            <img src="" alt="Panduan IPA">
+            <div class="card-title">Panduan IPA</div>
+        </a>
+        <a href="panduan-pengguna/listrik.pdf" target="_blank" class="card">
+            <img src="" alt="Panduan Listrik">
+            <div class="card-title">Panduan Listrik</div>
+        </a>
+        <a href="panduan-pengguna/bindo.pdf" target="_blank" class="card">
+            <img src="" alt="Panduan Bahasa Indonesia">
+            <div class="card-title">Panduan Bahasa Indonesia</div>
+        </a>
+    </main>
+
+</body>
+</html>
