@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const viewer = new PhotoSphereViewer.Viewer({
     container: document.getElementById('viewer'),
-    panorama: 'panoramas/' + foto,
+    panorama: './panoramas/' + foto,
     defaultLong: Math.PI,
     touchmoveTwoFingers: true
   });
