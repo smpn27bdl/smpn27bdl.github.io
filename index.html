@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMPN 27 Bandar Lampung - Digital Innovation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px 20px 10px;
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+            font-size: 28px;
+            color: #2c3e50;
+        }
+
+        p.subtitle {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            padding: 0 20px 50px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            padding: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            background-color: #f1f1f1;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 22px;
+            }
+            .card-title {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://smpn27bdl.github.io/logo.png" alt="SMPN 27 Logo" />
+        <h1>SMPN 27 Bandar Lampung</h1>
+        <p class="subtitle">Digital Innovation</p>
+    </header>
+
+    <main class="grid">
+        <a href="https://smpn27bdl.github.io/foto360/" target="_blank" class="card">
+            <img src="https://smpn27bdl.github.io/thumb-foto360.jpg" alt="School Info">
+            <div class="card-title">Informasi Sekolah</div>
+        </a>
+        <a href="https://smpn27bdl.github.io/verb/" target="_blank" class="card">
+            <img src="https://smpn27bdl.github.io/thumb-verb.jpg" alt="English Game">
+            <div class="card-title">English Battle Game</div>
+        </a>
+        <a href="https://smpn27bdl.github.io/mtk/" target="_blank" class="card">
+            <img src="https://smpn27bdl.github.io/thumb-mtk.jpg" alt="Math Puzzle">
+            <div class="card-title">Math Puzzle Game</div>
+        </a>
+        <a href="https://smpn27bdl.github.io/ipa/" target="_blank" class="card">
+            <img src="https://smpn27bdl.github.io/thumb-ipa.jpg" alt="Science Puzzle">
+            <div class="card-title">IPA Puzzle Game</div>
+        </a>
+        <a href="https://smpn27bdl.github.io/listrik/" target="_blank" class="card">
+            <img src="https://smpn27bdl.github.io/thumb-listrik.jpg" alt="Electricity">
+            <div class="card-title">Percobaan Listrik Virtual</div>
+        </a>
+        <a href="https://smpn27bdl.github.io/bindo/" target="_blank" class="card">
+            <img src="https://smpn27bdl.github.io/thumb-bindo.jpg" alt="Bahasa Indonesia">
+            <div class="card-title">Tebak Tanda</div>
+        </a>
+    </main>
+
+</body>
+</html>
